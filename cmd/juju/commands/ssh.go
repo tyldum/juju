@@ -125,7 +125,7 @@ See also:
 const (
 	// SSHRetryDelay is the time to wait for an SSH connection to be established
 	// to a single endpoint of a target.
-	SSHRetryDelay = 500 * time.Millisecond
+	SSHRetryDelay = 1 * time.Second
 
 	// SSHTimeout is the time to wait for before giving up trying to establish
 	// an SSH connection to a target, after retrying.
